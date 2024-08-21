@@ -4,6 +4,8 @@ import Accordian from './components/accordian';
 import ImageSlider from './components/image-slider';
 import RandomColor from './components/random-color';
 import StarRating from './components/star-rating';
+import TreeView from './components/tree-view-6';
+import menus from './components/tree-view-6/data';
 
 function App() {
   return (
@@ -24,7 +26,10 @@ function App() {
 
 
 {/* Load more products components */}
-<LoadMoreData />
+{/* <LoadMoreData /> */}
+
+{/* tree-view component/menu UI component/ recursive navigation menu */}
+<TreeView menus={menus}/>
 
     </div>
   );
