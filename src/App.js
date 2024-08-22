@@ -2,6 +2,8 @@ import './App.css';
 import LoadMoreData from './components/5-load-more-data';
 import Accordian from './components/accordian';
 import ImageSlider from './components/image-slider';
+import LightDarkMode from './components/light-dark-mode';
+import QRCodeGenerator from './components/qr-code-generator';
 import RandomColor from './components/random-color';
 import StarRating from './components/star-rating';
 import TreeView from './components/tree-view-6';
@@ -29,7 +31,13 @@ function App() {
 {/* <LoadMoreData /> */}
 
 {/* tree-view component/menu UI component/ recursive navigation menu */}
-<TreeView menus={menus}/>
+{/* <TreeView menus={menus}/> */}
+
+{/* qr code generator component */}
+{/* <QRCodeGenerator /> */}
+
+{/* ligth-dark-mode component */}
+<LightDarkMode />
 
     </div>
   );
